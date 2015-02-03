@@ -1,4 +1,4 @@
-public class FormatadorRecibo{
+public abstract class FormatadorRecibo{
 	private String nomeEmpresa;
 
 	public void setNomeEmpresa(String nomeEmpresa){
@@ -8,7 +8,5 @@ public class FormatadorRecibo{
 		return this.nomeEmpresa;	
 	}
 
-	public String gerarRecibo(String nomeCliente, double valor, String data, String motivo){
-		return "método em construção...";
-	}
+	public abstract String gerarRecibo(String nomeCliente, double valor, String data, String motivo);
 }

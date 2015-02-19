@@ -1,0 +1,10 @@
+import java.util.Calendar;
+import java.util.Date;
+
+public class TesteCalendarInstanciacao{
+	public static void main(String[] args){
+		Calendar cal = Calendar.getIntance();
+		Date data = cal.getTime();
+		
+	}
+}
